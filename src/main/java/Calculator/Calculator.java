@@ -72,7 +72,7 @@ public class Calculator {
         }
         return x;
     }
-
+@Override
     public String toString(){
         return "x="+x+" y="+y+" op="+operation+" state="+state.getClass().getSimpleName();
     }

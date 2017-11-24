@@ -3,6 +3,8 @@ import Calculator.Calculator;
 import java.io.IOException;
 
 public class Program {
+
+    //main program enry point
     public static void main(String[] args) throws IOException {
         System.out.println("Welcome to integer calculator!");
         Calculator calc = new Calculator();
